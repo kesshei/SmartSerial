@@ -1,0 +1,16 @@
+﻿<Window x:Class="SmartSerial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SmartSerial"
+        mc:Ignorable="d"
+        Title="智能串口-> 逗猫神器支持" Name="a" Width="810" Height="640" MinWidth="810"  MinHeight="640">
+    <Grid>
+        <TabControl>
+            <TabItem Header="串口调试功能">
+                <local:Serial></local:Serial>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
